@@ -50,7 +50,7 @@ async function loadFavouriteMichis() {
     section.innerHTML = "";
 
     const h2 = document.createElement('h2');
-    const h2Text = document.createTextNode('Michis favoritos');
+   const h2Text = document.createTextNode('');
     h2.appendChild(h2Text);
     section.appendChild(h2);
 
@@ -58,7 +58,7 @@ async function loadFavouriteMichis() {
       const article = document.createElement('article');
       const img = document.createElement('img');
       const btn = document.createElement('button');
-      const btnText = document.createTextNode('Sacar al michi de favoritos');
+      const btnText = document.createTextNode('Sacar de Favoritos');
 
       img.src = michi.image.url;
       img.width = 150;

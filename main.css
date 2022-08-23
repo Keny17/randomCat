@@ -1,0 +1,40 @@
+html{
+    display: flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-style: oblique;
+}
+#randomMichis, #favoriteMichis {
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color:aliceblue;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    align-content: center;
+}
+#uploadingMichi{
+    background-color: black;
+    color:white;
+    flex: column wrap;
+}
+div{
+    padding: 1rem;
+}
+button{
+    flex-flow: column;
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    border-top: 8px;
+    border-radius: 5px;
+}
+img{
+    width: 200px;
+    height: 180px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    border-style: dotted;
+}
